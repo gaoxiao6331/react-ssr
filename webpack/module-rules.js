@@ -94,6 +94,7 @@ module.exports = (isServer, isDev) => {
                           loader: 'sass-loader',
                           options: {
                               implementation: sass,
+                              api: 'modern',
                           },
                       },
                   ],
